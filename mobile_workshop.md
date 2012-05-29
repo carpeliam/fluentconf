@@ -23,6 +23,13 @@ Working with UI
     * Good for `<link rel="apple-touch-icon">` so that image shows up as soon as you try to bookmark (otherwise, there will be a network delay)
 * `contenteditable` attribute may replace any need for WYSIWYG editors (yippee)
 
+Core JS Stuff
+-------------
+* Add to homescreen OS library: [http://cubiq.org/add-to-home-screen](http://cubiq.org/add-to-home-screen)
+* Web Workers use `self` to refer to itself (Ruby-esque?)
+* JSON.stringify/parse (ECMA 5.1?) is native, much faster than JSON2
+* window.performance measures performance without affecting it (works in... iOS5? desktop?)
+* working with the session is a non-starter on mobile: no guarantee of consistency. Use localStorage instead!
 
 Assorted
 --------
