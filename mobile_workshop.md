@@ -29,8 +29,19 @@ Core JS Stuff
 * Web Workers use `self` to refer to itself (Ruby-esque?)
 * JSON.stringify/parse (ECMA 5.1?) is native, much faster than JSON2
 * window.performance measures performance without affecting it (works in... iOS5? desktop?)
+
+Data Management
+---------------
 * working with the session is a non-starter on mobile: no guarantee of consistency. Use localStorage instead!
+* Can store about 5mb per site (but I don't think this is a standardized limit)
+
+Device Interaction
+------------------
+* 11 simultaneous inputs for ipad. gratuitous.
+* navigator.connection might not be connected if not 3G - depends on implementation
+
 
 Assorted
 --------
 * Materials at [http://firt.mobi/material/](http://firt.mobi/material/)
+* Be [future friendly](http://futurefriend.ly/), cross platform (don't be fanatic)
